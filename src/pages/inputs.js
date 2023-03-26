@@ -1,6 +1,7 @@
+import Link from "next/link";
 import React, { useState } from "react";
-import Login from "./components/login";
-import Register from "./components/register";
+import Login from "./login";
+import Register from "./register";
 
 export default function Inputs() {
   const [page, setPage] = useState("");
@@ -24,8 +25,10 @@ export default function Inputs() {
         Register
       </button>
       <div>
-        {page === "login" && <Login />}
-        {page === "register" && <Register />}
+        {/* {page === "login" && <Login />}
+        {page === "register" && <Register />} */}
+
+        <Link href="/login">Login</Link>
       </div>
     </div>
   );

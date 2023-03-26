@@ -4,14 +4,8 @@ export default function Login() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
 
-<<<<<<< HEAD:src/pages/components/login.js
-<<<<<<< HEAD
-=======
   function onClick() {}
 
->>>>>>> 57d558b (update1)
-=======
->>>>>>> e4cc09a (update1):src/pages/login.js
   function handleSubmit(e) {
     e.preventDefault();
     console.log("Submitted");
@@ -22,10 +16,8 @@ export default function Login() {
   }
 
   return (
-    <div className="bg-white h-screen w-screen">
-      <h1 className="text-3xl m-5 font-bold text-black text-center justify-items-center">
-        Login
-      </h1>
+    <div className="bg-white">
+      <h1 className="text-black text-center font-bold text-4xl">Scrum Board</h1>
 
       <form className="grid place-items-center" onSubmit={handleSubmit}>
         <input

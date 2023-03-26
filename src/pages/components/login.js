@@ -4,6 +4,11 @@ export default function Login() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
 
+<<<<<<< HEAD
+=======
+  function onClick() {}
+
+>>>>>>> 57d558b (update1)
   function handleSubmit(e) {
     e.preventDefault();
     console.log("Submitted");
